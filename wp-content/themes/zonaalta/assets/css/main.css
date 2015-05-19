@@ -657,17 +657,25 @@ img {
 }
 .section-page .main__player,
 .page-template-default .main__player {
-  top: 6em;
+  top: 0em;
   bottom: auto;
   background: none;
   width: auto;
   height: auto;
+}
+.section-page .main__player__container,
+.page-template-default .main__player__container {
+  background: none;
 }
 .section-page .main__player:before,
 .page-template-default .main__player:before {
   background: none;
   height: 0;
   width: 0;
+}
+.section-page .main__tunein,
+.page-template-default .main__tunein {
+  display: none;
 }
 .section-page .header__menu,
 .page-template-default .header__menu {
@@ -762,6 +770,21 @@ img {
   -o-transition-delay: 0;
   -ms-transition-delay: 0;
   transition-delay: 0;
+}
+@media all and (min-width: 480px) {
+  .page-template-default .main__player {
+    top: 2em;
+    bottom: auto;
+    background: none;
+    width: auto;
+    height: auto;
+  }
+  .page-template-default .main__player__container {
+    background: url("img/player.png") no-repeat;
+  }
+  .page-template-default .main__tunein {
+    display: block;
+  }
 }
 .header {
   position: fixed;

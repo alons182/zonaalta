@@ -88,16 +88,19 @@ img
 		margin-top 70px
 		
 		&__player
-			top 6em
+			top 0em
 			bottom auto
 			background none
-			width auto 
+			width auto
 			height auto
-		
+			&__container
+				background none
 			&:before
 				background none
 				height 0
 				width 0	
+		&__tunein
+			display none
 			
 	.header
 		&__menu
@@ -143,7 +146,21 @@ img
 				opacity 0
 				transition-delay 0
 				
+@media all and (min-width: 480px)
+	.page-template-default	
+		.main 
+			
+			&__player
+				top 2em
+				bottom auto
+				background none
+				width auto
+				height auto
+				&__container
+					background url('img/player.png') no-repeat;
 				
+			&__tunein
+				display block				
 .header
 	position fixed
 	top 0
