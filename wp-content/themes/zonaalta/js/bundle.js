@@ -138,9 +138,10 @@ P,module.exports.SoundManager=Q,module.exports.soundManager=P):"function"===type
   var btnMenu = $('#btn-menu'),
       menu = $('.header__menu'),
       header = $('.header'),
-      navegador ='desktop';
-     
+      navegador ='desktop'
+      main_url      = window.location.href; 
 
+    
 
 
       btnMenu.on('click', function(){
@@ -192,7 +193,7 @@ P,module.exports.SoundManager=Q,module.exports.soundManager=P):"function"===type
       flashLoadTimeout: 0,
       flashVersion: 9,
       preferFlash: false,
-      url: "/wp-content/themes/zonaalta/radio/swf/",
+      url: main_url + "/wp-content/themes/zonaalta/radio/swf/",
       useHighPerformance: true,
       waitForWindowLoad: false,
       onready: function() {
@@ -227,7 +228,7 @@ P,module.exports.SoundManager=Q,module.exports.soundManager=P):"function"===type
 
     // Define the buttons
     function setButtonError() {
-      $( "#sm-button" ).attr( "src", "/wp-content/themes/zonaalta/img/play.png" ).attr( "alt", "Error" );
+      $( "#sm-button" ).attr( "src", main_url +"/wp-content/themes/zonaalta/img/play.png" ).attr( "alt", "Error" );
       ga( "send", "event", { eventCategory: "Player", eventAction: "Error" } );
       // logStreamError( "46592", "desktop" );
     }
@@ -235,13 +236,13 @@ P,module.exports.SoundManager=Q,module.exports.soundManager=P):"function"===type
       $( "#sm-button" ).attr( "src", "http://cdn.radiosfm.org/images/button-get-flash-player.png" ).attr( "alt", "Flash" ).attr( "style", "width:160px !important; height:41px !important;" );
     }
     function setButtonPlay() {
-      $( "#sm-button" ).attr( "src", "/wp-content/themes/zonaalta/img/play.png" ).attr( "alt", "Sonar" );
+      $( "#sm-button" ).attr( "src", main_url +"/wp-content/themes/zonaalta/img/play.png" ).attr( "alt", "Sonar" );
     }
     function setButtonPreloader() {
-      $( "#sm-button" ).attr( "src", "/wp-content/themes/zonaalta/img/preloader.gif" ).attr( "alt", "Cargando..." );
+      $( "#sm-button" ).attr( "src", main_url +"/wp-content/themes/zonaalta/img/preloader.gif" ).attr( "alt", "Cargando..." );
     }
     function setButtonStop() {
-      $( "#sm-button" ).attr( "src", "/wp-content/themes/zonaalta/img/pause.png" ).attr( "alt", "Parar" );
+      $( "#sm-button" ).attr( "src", main_url +"/wp-content/themes/zonaalta/img/pause.png" ).attr( "alt", "Parar" );
     }
 
     // Set the controls
