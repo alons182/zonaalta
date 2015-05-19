@@ -663,6 +663,12 @@ img {
   width: auto;
   height: auto;
 }
+.section-page .main__player:before,
+.page-template-default .main__player:before {
+  background: none;
+  height: 0;
+  width: 0;
+}
 .section-page .header__menu,
 .page-template-default .header__menu {
   visibility: hidden;
