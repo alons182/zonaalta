@@ -5,7 +5,7 @@
       header = $('.header'),
       navegador ='desktop'
       loc = location,
-      main_url = loc.protocol + "//" + loc.host + "/";
+      main_url = loc.protocol + "//" + loc.host + "/zonaalta/";
      
 
     
