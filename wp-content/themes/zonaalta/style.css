@@ -1098,7 +1098,7 @@ img {
 }
 .main__player {
   position: fixed;
-  bottom: 7rem;
+  bottom: 11rem;
   left: -2rem;
   z-index: 100;
   width: 450px;
