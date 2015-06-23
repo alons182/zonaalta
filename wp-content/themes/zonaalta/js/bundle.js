@@ -177,9 +177,11 @@ P,module.exports.SoundManager=Q,module.exports.soundManager=P):"function"===type
 
         if($(window).width() < 1024){
           navegador = 'mobile';
+
         }else
         {
           navegador ='desktop';
+          header.addClass('header--active');
         }
 
       } 

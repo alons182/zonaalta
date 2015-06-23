@@ -15,7 +15,7 @@
     </head>
     <body <?php body_class(); ?>>
         
-        <header class="header">
+        <header class="header header--active">
             <?php get_template_part( 'templates/nav' ); ?>
             <a href="<?php echo home_url( '/' ); ?>" class="header__btn-home">Home</a>
             <div class="header__contact">
@@ -25,3 +25,4 @@
             <button id="btn-menu" class="header__btn-menu"><i class="icon-menu"></i></button>
 
         </header>
+         <?php get_template_part( 'templates/twicker' ); ?>
