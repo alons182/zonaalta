@@ -15,14 +15,17 @@
     </head>
     <body <?php body_class(); ?>>
         
-        <header class="header header--active">
+        <header class="header ">
             <?php get_template_part( 'templates/nav' ); ?>
-            <a href="<?php echo home_url( '/' ); ?>" class="header__btn-home">Home</a>
+            <a href="<?php echo home_url( '/' ); ?>" class="header__logo"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="Radio Zona Alta"></a>
             <div class="header__contact">
                 <span><i class="icon-whatsapp"></i> (506) 8998-1098</span>
             </div>
-            <a href="<?php echo home_url( '/' ); ?>" class="header__logo">Radio Zona Alta</a>
+            
             <button id="btn-menu" class="header__btn-menu"><i class="icon-menu"></i></button>
 
         </header>
+        <div class="header__message">
+           <i class="icon-volume-up"></i> Transmisión en vivo desde Monteverde
+        </div>
          <?php get_template_part( 'templates/twicker' ); ?>

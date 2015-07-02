@@ -658,7 +658,7 @@ img {
 .section-page .main__player,
 .page-template-default .main__player {
   position: absolute;
-  top: 6em;
+  top: 10em;
   bottom: auto;
   background: none;
   width: auto;
@@ -778,7 +778,7 @@ img {
 }
 @media all and (min-width: 480px) {
   .page-template-default .main__player {
-    top: 8em;
+    top: 9em;
     bottom: auto;
     background: none;
     width: auto;
@@ -812,7 +812,7 @@ img {
 }
 .header--active {
   background: rgba(0,0,0,0.55);
-  height: 260px;
+  height: 290px;
   -webkit-transition-delay: 0s;
   -moz-transition-delay: 0s;
   -o-transition-delay: 0s;
@@ -1019,10 +1019,10 @@ img {
   transition: all 0.2s ease-out;
 }
 .header__logo {
-  display: none;
+  display: block;
   position: absolute;
-  right: 3rem;
-  top: 1rem;
+  left: 0;
+  top: 3rem;
   color: #fff;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -1030,6 +1030,10 @@ img {
   -ms-transition: all 0.5s ease;
   transition: all 0.5s ease;
   font-weight: 700;
+  width: 90px;
+}
+.header__logo img {
+  border: 1px solid #000;
 }
 .header__btn-home {
   color: #fff;
@@ -1046,9 +1050,32 @@ img {
   color: #fff;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.75);
 }
+.header__message {
+  display: none;
+  background-color: #d52119;
+  padding: 0.3rem;
+  font-size: 12px;
+  position: absolute;
+  right: 0;
+  top: 80px;
+  z-index: 200;
+  color: #fff;
+}
+@media all and (min-width: 640px) {
+  .header__logo {
+    width: 150px;
+  }
+  .header__message {
+    display: block;
+  }
+}
 @media all and (min-width: 1024px) {
   body {
     font-size: 100%;
+  }
+  .header__logo {
+    left: 3rem;
+    top: 1rem;
   }
   .header__menu {
     padding-top: 0;
