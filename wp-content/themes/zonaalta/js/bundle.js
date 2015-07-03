@@ -140,7 +140,7 @@ P,module.exports.SoundManager=Q,module.exports.soundManager=P):"function"===type
       header = $('.header'),
       navegador ='desktop'
       loc = location,
-      main_url = loc.protocol + "//" + loc.host + "/zonaalta/";
+      main_url = loc.protocol + "//" + loc.host + "/";
      
 
     
