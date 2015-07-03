@@ -1176,11 +1176,14 @@ img {
   text-align: center;
 }
 .main .contact-form input[type="text"],
-.main .contact-form input[type="email"] {
+.main .wpcf7-form input[type="text"],
+.main .contact-form input[type="email"],
+.main .wpcf7-form input[type="email"] {
   height: 30px;
   width: 100%;
 }
-.main .contact-form textarea {
+.main .contact-form textarea,
+.main .wpcf7-form textarea {
   width: 98%;
 }
 .main .twitter-timeline {
@@ -1188,13 +1191,17 @@ img {
 }
 @media all and (min-width: 480px) {
   .main .contact-form input[type="text"],
-  .main .contact-form input[type="email"] {
+  .main .wpcf7-form input[type="text"],
+  .main .contact-form input[type="email"],
+  .main .wpcf7-form input[type="email"] {
     width: 360px;
   }
-  .main .contact-form textarea {
+  .main .contact-form textarea,
+  .main .wpcf7-form textarea {
     width: 360px;
   }
-  .main .contact-form input[type="submit"] {
+  .main .contact-form input[type="submit"],
+  .main .wpcf7-form input[type="submit"] {
     background-color: #8dc63f;
     border: 0;
     outline: 0;
