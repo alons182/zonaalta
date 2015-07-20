@@ -9,13 +9,13 @@
              <?php get_template_part( 'templates/player' ); ?>
             
     <div class="main__slider">
-        <div class="cycle-slideshow"  data-cycle-timeout="600000"  data-cycle-slides=".main__slider__slide">
+        <div class="cycle-slideshow"  data-cycle-timeout="120000"  data-cycle-slides=".main__slider__slide">
         
         <div class="main__slider__slide" style="background-image:url(<?php echo get_template_directory_uri(); ?>/img/home_bg1.jpg);" data-cycle-fx="tileSlide" data-cycle-tile-vertical="false"></div>
        <div class="main__slider__slide" style="background-image:url(<?php echo get_template_directory_uri(); ?>/img/home_bg2.jpg);" data-cycle-fx="tileSlide" data-cycle-tile-vertical="false"></div>
         <div class="main__slider__slide" style="background-image:url(<?php echo get_template_directory_uri(); ?>/img/home_bg3.jpg);" data-cycle-fx="tileSlide" data-cycle-tile-vertical="false"></div>
         <div class="main__slider__slide" style="background-image:url(<?php echo get_template_directory_uri(); ?>/img/home_bg4.jpg);" data-cycle-fx="tileSlide" data-cycle-tile-vertical="false"></div>
-        <div class="main__slider__slide" style="background-image:url(<?php echo get_template_directory_uri(); ?>/img/home_bg5.jpg);" data-cycle-fx="tileSlide" data-cycle-tile-vertical="false"></div>
+        
         </div>
     </div>
 
