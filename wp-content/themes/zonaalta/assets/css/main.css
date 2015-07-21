@@ -1050,6 +1050,11 @@ img {
   color: #fff;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.75);
 }
+.header__contact__fb {
+  display: block;
+  color: #fff;
+  text-align: right;
+}
 .header__message {
   display: none;
   background-color: #d52119;
@@ -1067,6 +1072,9 @@ img {
   }
   .header__message {
     display: block;
+  }
+  .header__contact__fb {
+    display: none;
   }
 }
 @media all and (min-width: 1024px) {
@@ -1236,6 +1244,7 @@ img {
   position: fixed;
   top: 20%;
   right: 0;
+  display: none;
 }
 .social__link {
   display: block;
