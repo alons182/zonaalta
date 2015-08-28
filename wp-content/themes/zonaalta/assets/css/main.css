@@ -1032,9 +1032,6 @@ img {
   font-weight: 700;
   width: 90px;
 }
-.header__logo img {
-  border: 1px solid #000;
-}
 .header__btn-home {
   color: #fff;
   position: absolute;
@@ -1068,7 +1065,7 @@ img {
 }
 @media all and (min-width: 640px) {
   .header__logo {
-    width: 150px;
+    width: 200px;
   }
   .header__message {
     display: block;
@@ -1083,7 +1080,7 @@ img {
   }
   .header__logo {
     left: 3rem;
-    top: 1rem;
+    top: 0rem;
   }
   .header__menu {
     padding-top: 0;
