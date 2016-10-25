@@ -57,7 +57,7 @@
     window.soundManager = new SoundManager();
 
     // Configure soundManager
-    soundManager.setup({
+    /*soundManager.setup({
       debugMode: false,
       flashLoadTimeout: 0,
       flashVersion: 9,
@@ -70,7 +70,7 @@
           id: "webradio",
           url: [{
             type: "audio/mpeg",
-            url: "http://stereo.wavestreamer.com:7667/1/;stream/"
+            url: "http://192.99.38.200:9990/stream/"//"http://stereo.wavestreamer.com:7667/1/;stream/"
             
 
           }],
@@ -129,7 +129,7 @@
         setButtonPlay();
         soundManager.unload( "webradio" ); //( navegador != "desktop" ) ? soundManager.unload( "webradio" ) : soundManager.mute( "webradio" );
       }
-    });   
+    });  */ 
 
 
 

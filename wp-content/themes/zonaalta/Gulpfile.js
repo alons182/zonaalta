@@ -1,7 +1,7 @@
 var gulp        = require('gulp'),
     uglify      = require('gulp-uglify'),
     stripDebug  = require('gulp-strip-debug'),
-    minifyCSS   = require('gulp-minify-css'),
+    minifyCSS   = require('gulp-clean-css'),
     stylus      = require('gulp-stylus'),
     nib         = require('nib'),
     concat      = require('gulp-concat'),
@@ -57,7 +57,7 @@ gulp.task('stylus', function () {
 
 gulp.task('css', function () {
   gulp.src(['./assets/css/main.css'])
-    //.pipe(minifyCSS({ keepSpecialComments: '*', keepBreaks: '*'}))
+    //.pipe(cleanCSS({ keepSpecialComments: '*', keepBreaks: '*'}))
     .pipe(concat('style.css'))
     .pipe(gulp.dest('./'))
     .pipe(reload({stream:true}));
