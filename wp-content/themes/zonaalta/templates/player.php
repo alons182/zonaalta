@@ -1,6 +1,6 @@
 <div class="main__player">
 	<!-- <iframe src="http://generadoraac.com/miniv1.php?ip=192.99.38.200&puerto=9990/stream" frameborder="0"  width="270px" height="270px"> </iframe> -->
-    <iframe src="http://generadoraac.com/reprov1.php?ip=servicompcr.net&puerto=9990/stream" frameborder="0"  width="340px" height="70px" style="margin-left: 2.5rem;"> </iframe>
+    <iframe src="http://generadoraac.com/reprov1.php?ip=servicompcr.net&puerto=9990/stream" frameborder="0"  width="340px" height="71px" style="margin-left: 2.5rem;"> </iframe>
     <!--<div class="main__player__container">
     	<img src="<?php echo get_template_directory_uri(); ?>/img/play.png" alt="Inicio" id="sm-button"/>
     </div>-->
