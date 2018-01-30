@@ -1,6 +1,6 @@
 <div class="main__player">
     <div class="player">
-        <object type="text/html" data="http://generadoraac.com/live/lite.js?live=4523" style="width: 300px; height: 200px;">
+        <object type="text/html" data="http://generadoraac.com/live/lite.js?live=4523" style="width: 300px; height: 200px;" />
     </div>
     
     <div class="main__tunein">
